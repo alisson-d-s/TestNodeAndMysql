@@ -5,3 +5,5 @@ const queryRaces = mysql.query('SELECT * FROM RACES', function(err, res) {
 
     console.log(res);
 });
+
+mysql.end();
